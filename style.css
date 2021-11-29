@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+  }
+
+    body{
+        font-family: "Roboto", sans-serif;
+        background: #59C173;
+        background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173);
+    }
+
+        #contenido{
+            width: 360px;
+            margin: 6% auto;
+            border: 2px solid grey;
+            background-color: #f7f7f7;
+            -webkit-box-shadow: 10px 10px 10px 1px rgba(173,173,173,1);
+            -moz-box-shadow: 10px 10px 10px 1px rgba(173,173,173,1);
+            box-shadow: 10px 10px 10px 1px rgba(173,173,173,1);
+        }
+            h1 {
+                background-color: #2980b9;
+                color: white;
+                margin: 0;
+                padding: 10px 20px;
+                text-transform: uppercase;
+                font-size: 24px;
+                font-weight: normal;
+            }
+                .fa-stream{
+                    float: right;
+                }
+                .fa-arrow-down{
+                    float: right;
+                }
+            
+            label{
+                display: flex;
+                flex-flow: row nowrap;
+            }
+
+            .fa-sign-in-alt{
+                padding: 15px;
+                background-color: #3ce77e;
+                color: #f7f7f7;
+            }
+
+            input {
+                font-size: 18px;
+                background-color: #f7f7f7;
+                padding: 13px 13px 13px 20px;
+                border: none;
+                width: 100%;
+            }
+
+           
+
+            input:focus {
+                background-color: #fff;
+                outline: none;
+                border: 1.5px solid #2980b9;
+              }
+
+            ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+                li {
+                    background-color: white;
+                    height: 40px;
+                    line-height: 40px;
+                    color: #666;
+                }
+
+                li:nth-child(even) {
+                    background-color: #f7f7f7;
+                }
+
+                li:hover{
+                    cursor: default;
+                }
+                i:hover{
+                    cursor: pointer;
+                }
+                .completado{
+                    text-decoration: line-through grey;
+                    
+                }
+
+                    span {
+                        background-color: #e74c3c;
+                        color: white;
+                        height: 40px;
+                        margin-right: 20px;
+                        text-align: center;
+                        width: 0px;
+                        display: inline-block;
+                        transition: 0.2s linear;
+                        opacity: 0;
+                    }
+
+                    li:hover span {
+                        width: 40px;
+                        opacity: 1;
+                       }
